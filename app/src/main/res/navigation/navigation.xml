@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/teamListFragment">
+
+    <fragment
+        android:id="@+id/teamListFragment"
+        android:name="com.example.soccerleague.view.TeamListFragment"
+        tools:layout="@layout/fragment_team_list"
+        android:label="Teams" >
+        <action
+            android:id="@+id/action_teamListFragment_to_fixtureFragment"
+            app:destination="@id/fixtureFragment"
+            app:exitAnim="@anim/from_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fixtureFragment"
+        android:name="com.example.soccerleague.view.FixtureFragment"
+        android:label="Fixture"
+        tools:layout="@layout/fragment_base_fixture" />
+</navigation>
