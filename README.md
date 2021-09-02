@@ -1,5 +1,6 @@
-"# SoccerLeague" 
-It is a mobile android application that it shows teams fixture and teams badges. This project was developed with Kotlin.
+"# SoccerLeague"
+
+It is a mobile android application that it shows teams fixture and teams badges.This application has dark mode and was developed with Kotlin.
 
 ![Screenshot_20210902-111214_SoccerLeague](https://user-images.githubusercontent.com/48139038/131826784-6f22550d-2309-4c78-a358-51fb5b86b627.jpg)
 ![Screenshot_20210902-111141_SoccerLeague](https://user-images.githubusercontent.com/48139038/131826788-a7d0514c-1d2d-405b-92e2-8f62e072b05a.jpg)
